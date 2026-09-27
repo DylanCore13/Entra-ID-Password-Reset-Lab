@@ -169,10 +169,10 @@ The logs now showed a successful authentication event.
 This verified that the password reset resolved the authentication problem.
 
 
-<img width="1967" height="211" alt="Screenshot 2026-09-27 113312" src="https://github.com/user-attachments/assets/6308d982-1df8-4057-8c28-e35934410854" />
 
 
-<img width="1959" height="63" alt="Screenshot 2026-09-27 113325" src="https://github.com/user-attachments/assets/45a044a1-f2a5-4461-9778-566ce30ddcca" />
+
+<img width="1959" height="80" alt="Screenshot 2026-09-27 113325" src="https://github.com/user-attachments/assets/45a044a1-f2a5-4461-9778-566ce30ddcca" />
 
 
 ---
