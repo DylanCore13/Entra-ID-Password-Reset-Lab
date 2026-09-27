@@ -1,1 +1,1 @@
-# Entra-ID Password Credentials-Lab
+# Entra-ID Password Reset-Lab
