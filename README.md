@@ -1,1 +1,218 @@
-# Entra-ID Password Reset-Lab
+# Microsoft Entra ID Password Reset & Sign-In Troubleshooting Lab
+
+## Overview
+
+In this lab, I used the Microsoft 365 Admin Center and Microsoft Entra ID to create a test user and troubleshoot a simulated sign-in issue.
+
+The purpose of this lab was to practice common Tier 1 Help Desk tasks involving user account management, authentication troubleshooting, password resets, and sign-in log analysis.
+
+---
+
+## Technologies Used
+
+- Microsoft 365 Admin Center
+- Microsoft Entra ID
+- Microsoft Entra Sign-In Logs
+- Microsoft 365 Test Tenant
+- Web Browser / InPrivate Session
+
+---
+
+## Lab Environment
+
+For this lab, I created a fictional employee account:
+
+**User:** Emily Rodriguez  
+**Job Title:** Accounting Specialist  
+**Department:** Accounting  
+**User Type:** Member  
+
+The account was created without administrative privileges.
+
+---
+
+# Part 1 — Create the User in Microsoft 365
+
+I opened the **Microsoft 365 Admin Center** and navigated to:
+
+`Users > Active users > Add a user`
+
+I created the test employee account and configured the user's profile information.
+
+The user was kept as a standard user with no administrative role.
+
+### Screenshot
+
+<!-- Add screenshot of the Microsoft 365 user here -->
+
+![Microsoft 365 User Creation](images/user-creation.png)
+
+---
+
+# Part 2 — Verify the User in Microsoft Entra ID
+
+After creating the account in Microsoft 365, I opened the **Microsoft Entra Admin Center**.
+
+I navigated to:
+
+`Identity > Users > All users`
+
+I located **Emily Rodriguez** and reviewed the account.
+
+I verified:
+
+- Account status was enabled
+- User type was Member
+- No administrative roles were assigned
+- No groups were currently assigned
+- No product license was assigned
+
+This demonstrated how a user created through Microsoft 365 is represented and managed through Microsoft Entra ID.
+
+### Screenshot
+
+![Entra User Overview](images/entra-user-overview.png)
+
+---
+
+# Part 3 — Simulate a Failed Sign-In
+
+To create a troubleshooting scenario, I opened a separate InPrivate browser session and attempted to sign in as the test user using incorrect credentials.
+
+I then returned to Microsoft Entra ID and navigated to:
+
+`User > Sign-in logs`
+
+The failed authentication attempt appeared in the user's sign-in history.
+
+### Screenshot
+
+![Failed Sign-In](images/failed-sign-in.png)
+
+---
+
+# Part 4 — Investigate the Sign-In Failure
+
+I opened the failed sign-in event and reviewed the authentication information.
+
+The event showed:
+
+**Status:** Failure  
+**Sign-in Error Code:** 50126  
+**Failure Reason:** Invalid username or password
+
+This confirmed that the problem was related to the user's credentials rather than immediately assuming another account or service issue.
+
+### Screenshot
+
+![Sign-In Error Details](images/sign-in-error.png)
+
+---
+
+# Part 5 — Reset the User Password
+
+After identifying the credential issue and simulating confirmation that the user had forgotten their password, I returned to the user's Entra profile.
+
+I selected:
+
+`Reset password`
+
+Microsoft Entra generated a temporary password for the account.
+
+In a real Help Desk environment, temporary credentials would be provided to the verified user through an approved secure method.
+
+> **Security Note:** Passwords and temporary credentials should never be included in screenshots or public documentation.
+
+### Screenshot
+
+![Password Reset](images/password-reset.png)
+
+---
+
+# Part 6 — User Changes Temporary Password
+
+I signed in as the test user using the temporary credentials.
+
+Microsoft required the user to create a new private password before continuing.
+
+After changing the password, the user was able to authenticate successfully.
+
+### Screenshot
+
+![Password Change](images/password-change.png)
+
+---
+
+# Part 7 — Verify Successful Authentication
+
+I returned to Microsoft Entra ID and refreshed the user's sign-in logs.
+
+The logs now showed a successful authentication event.
+
+**Status:** Success  
+**Sign-in Error Code:** 0
+
+This verified that the password reset resolved the authentication problem.
+
+### Screenshot
+
+![Successful Sign-In](images/successful-sign-in.png)
+
+---
+
+# Troubleshooting Workflow
+
+The troubleshooting process used during this lab was:
+
+1. Verify the user's identity.
+2. Confirm the account is enabled.
+3. Gather information about the sign-in problem.
+4. Review Microsoft Entra sign-in logs.
+5. Identify the authentication failure.
+6. Confirm that the user forgot their password.
+7. Reset the password.
+8. Have the user change the temporary password.
+9. Verify successful authentication.
+10. Document the resolution.
+
+---
+
+# Example Help Desk Ticket Documentation
+
+**Issue:**  
+User reported being unable to sign in to their account.
+
+**Investigation:**  
+Verified the user's identity and confirmed that the account was enabled. Reviewed Microsoft Entra sign-in logs and identified failed authentication attempts caused by invalid credentials.
+
+**Resolution:**  
+The user confirmed that they had forgotten their password. Reset the user's password and provided temporary credentials according to procedure. The user changed the temporary password and successfully signed in.
+
+**Verification:**  
+Confirmed successful authentication through Microsoft Entra sign-in logs.
+
+**Status:**  
+Resolved.
+
+---
+
+# Skills Demonstrated
+
+- Microsoft 365 user administration
+- Microsoft Entra ID user management
+- User account provisioning
+- Password resets
+- Authentication troubleshooting
+- Microsoft Entra sign-in log analysis
+- Error-code investigation
+- Account-status verification
+- Tier 1 Help Desk troubleshooting
+- Technical documentation
+
+---
+
+## Key Takeaway
+
+This lab demonstrated the importance of investigating an authentication problem before making changes to a user's account.
+
+Instead of immediately resetting the password, I first verified the user's identity, checked the account status, and reviewed the sign-in logs to identify the cause of the authentication failure. After resetting the password, I verified the resolution by confirming a successful sign-in event.
