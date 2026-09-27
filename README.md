@@ -131,9 +131,11 @@ In a real Help Desk environment, temporary credentials would be provided to the 
 
 > **Security Note:** Passwords and temporary credentials should never be included in screenshots or public documentation.
 
-### Screenshot
 
-![Password Reset](images/password-reset.png)
+<img width="867" height="100" alt="Screenshot 2026-09-27 112920" src="https://github.com/user-attachments/assets/f03f2e9c-cf01-444c-8406-c058c2bc61b9" />
+
+<img width="307" height="183" alt="Screenshot 2026-09-27 112949" src="https://github.com/user-attachments/assets/be5d0843-c1b5-43c5-b5cd-fe6b2bf09265" />
+
 
 ---
 
