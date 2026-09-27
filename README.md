@@ -49,11 +49,8 @@ I created the test employee account and configured the user's profile informatio
 
 The user was kept as a standard user with no administrative role.
 
-### Screenshot
+<img width="1875" height="655" alt="Screenshot 2026-09-27 112734" src="https://github.com/user-attachments/assets/5316c91c-d478-44ff-9ab1-c776333db5ef" />
 
-<!-- Add screenshot of the Microsoft 365 user here -->
-
-![Microsoft 365 User Creation](images/user-creation.png)
 
 ---
 
