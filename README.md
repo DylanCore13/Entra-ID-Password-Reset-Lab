@@ -147,9 +147,13 @@ Microsoft required the user to create a new private password before continuing.
 
 After changing the password, the user was able to authenticate successfully.
 
-### Screenshot
 
-![Password Change](images/password-change.png)
+<img width="1900" height="1018" alt="Screenshot 2026-09-27 113050" src="https://github.com/user-attachments/assets/2a24ecd6-241f-4231-8d32-ce6bbf17cc6f" />
+
+
+<img width="821" height="792" alt="Screenshot 2026-09-27 113059" src="https://github.com/user-attachments/assets/96f3256a-3ddc-4373-a399-f90289d33da2" />
+
+
 
 ---
 
@@ -164,9 +168,12 @@ The logs now showed a successful authentication event.
 
 This verified that the password reset resolved the authentication problem.
 
-### Screenshot
 
-![Successful Sign-In](images/successful-sign-in.png)
+<img width="1967" height="211" alt="Screenshot 2026-09-27 113312" src="https://github.com/user-attachments/assets/6308d982-1df8-4057-8c28-e35934410854" />
+
+
+<img width="1959" height="63" alt="Screenshot 2026-09-27 113325" src="https://github.com/user-attachments/assets/45a044a1-f2a5-4461-9778-566ce30ddcca" />
+
 
 ---
 
