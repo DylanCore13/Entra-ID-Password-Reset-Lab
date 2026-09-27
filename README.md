@@ -110,7 +110,8 @@ This confirmed that the problem was related to the user's credentials rather tha
 
 
 
-<img width="2275" height="1312" alt="Screenshot 2026-09-27 112823" src="https://github.com/user-attachments/assets/84b69718-3d79-4c38-92e9-37194414c8e2" />
+<img width="2275" height="1312" alt="Screenshot 2026-09-27 112823" src="https://github.com/user-attachments/assets/27aa946a-a550-4da8-8af6-8f69bed1bd0c" />
+
 
 
 
