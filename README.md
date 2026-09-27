@@ -91,9 +91,8 @@ I then returned to Microsoft Entra ID and navigated to:
 
 The failed authentication attempt appeared in the user's sign-in history.
 
-### Screenshot
+<img width="1967" height="211" alt="Screenshot 2026-09-27 113312" src="https://github.com/user-attachments/assets/e14a5243-3206-48b9-944a-856082802b82" />
 
-![Failed Sign-In](images/failed-sign-in.png)
 
 ---
 
