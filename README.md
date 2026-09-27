@@ -31,7 +31,7 @@ The account was created without administrative privileges.
 
 ---
 
-# Part 1 — Create the User in Microsoft 365
+# — Create the User in Microsoft 365
 
 I opened the **Microsoft 365 Admin Center** and navigated to:
 
@@ -49,7 +49,7 @@ The user was kept as a standard user with no administrative role.
 
 ---
 
-# Part 2 — Verify the User in Microsoft Entra ID
+# — Verify the User in Microsoft Entra ID
 
 After creating the account in Microsoft 365, I opened the **Microsoft Entra Admin Center**.
 
@@ -75,7 +75,7 @@ This demonstrated how a user created through Microsoft 365 is represented and ma
 
 ---
 
-# Part 3 — Simulate a Failed Sign-In
+# — Simulate a Failed Sign-In
 
 To create a troubleshooting scenario, I opened a separate InPrivate browser session and attempted to sign in as the test user using incorrect credentials.
 
@@ -91,7 +91,7 @@ The failed authentication attempt appeared in the user's sign-in history.
 
 ---
 
-# Part 4 — Investigate the Sign-In Failure
+# — Investigate the Sign-In Failure
 
 I opened the failed sign-in event and reviewed the authentication information.
 
@@ -109,7 +109,7 @@ This confirmed that the problem was related to the user's credentials rather tha
 
 ---
 
-# Part 5 — Reset the User Password
+# — Reset the User Password
 
 After identifying the credential issue and simulating confirmation that the user had forgotten their password, I returned to the user's Entra profile.
 
@@ -129,7 +129,7 @@ In a real Help Desk environment, temporary credentials would be provided to the 
 
 ---
 
-# Part 6 — User Changes Temporary Password
+# — User Changes Temporary Password
 
 I signed in as the test user using the temporary credentials.
 
@@ -143,7 +143,7 @@ After changing the password, the user was able to authenticate successfully.
 
 ---
 
-# Part 7 — Verify Successful Authentication
+# — Verify Successful Authentication
 
 I returned to Microsoft Entra ID and refreshed the user's sign-in logs.
 
@@ -176,6 +176,8 @@ The troubleshooting process used during this lab was:
 10. Document the resolution.
 
 ---
+
+
 
 # Example Help Desk Ticket Documentation
 
@@ -210,6 +212,8 @@ Resolved.
 - Technical documentation
 
 ---
+
+
 
 ## Key Takeaway
 
