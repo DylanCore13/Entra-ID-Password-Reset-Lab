@@ -74,9 +74,10 @@ I verified:
 
 This demonstrated how a user created through Microsoft 365 is represented and managed through Microsoft Entra ID.
 
-### Screenshot
 
-![Entra User Overview](images/entra-user-overview.png)
+<img width="1631" height="1135" alt="Screenshot 2026-09-27 112716" src="https://github.com/user-attachments/assets/55ea634d-e35d-4d58-be87-4cb8a28b887c" />
+
+
 
 ---
 
