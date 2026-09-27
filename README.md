@@ -108,9 +108,11 @@ The event showed:
 
 This confirmed that the problem was related to the user's credentials rather than immediately assuming another account or service issue.
 
-### Screenshot
 
-![Sign-In Error Details](images/sign-in-error.png)
+
+<img width="2275" height="1312" alt="Screenshot 2026-09-27 112823" src="https://github.com/user-attachments/assets/84b69718-3d79-4c38-92e9-37194414c8e2" />
+
+
 
 ---
 
